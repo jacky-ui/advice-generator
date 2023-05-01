@@ -78,4 +78,9 @@
   border-radius: 5rem;
   position: absolute;
   top: 89%;
+}
+@media screen and (max-width: 760px) {
+  .card__image--dice {
+    top: 92%;
+  }
 }/*# sourceMappingURL=AdviceCard.css.map */
