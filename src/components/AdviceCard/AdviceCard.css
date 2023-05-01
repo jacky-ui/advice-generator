@@ -1,1 +1,20 @@
-/*# sourceMappingURL=AdviceCard.css.map */
+@font-face {
+  font-family: "Toboggan";
+  src: url(../../assets/fonts/Toboggan-Light.woff) format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Toboggan";
+  src: url(../../assets/fonts/Toboggan-MediumItalic.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+.card {
+  background-color: #313A49;
+}
+.card__header {
+  color: #52FEAC;
+  font-family: "Toboggan";
+  font-weight: 300;
+}/*# sourceMappingURL=AdviceCard.css.map */

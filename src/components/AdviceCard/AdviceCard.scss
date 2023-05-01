@@ -1,2 +1,13 @@
 @use '../../styles/partials/mixins' as *;
 @use '../../styles/partials/variables' as *;
+@use '../../styles/partials/typography' as *;
+
+.card {
+    background-color: $card-color;
+    
+    &__header {
+        color:$green-color;
+        font-family: 'Toboggan';
+        font-weight: 300;
+    }
+}

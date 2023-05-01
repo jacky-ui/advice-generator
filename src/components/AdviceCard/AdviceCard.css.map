@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"AdviceCard.css"}
+{"version":3,"sources":["../../styles/partials/_typography.scss","AdviceCard.css","AdviceCard.scss","../../styles/partials/_variables.scss"],"names":[],"mappings":"AACA;EACI,uBAAA;EACA,+DAAA;EACA,gBAAA;EACA,kBAAA;ACAJ;ADIA;EACI,uBAAA;EACA,sEAAA;EACA,mBAAA;EACA,kBAAA;ACFJ;ACPA;EACI,yBCFQ;AFWZ;ACPI;EACI,cCNK;EDOL,uBAAA;EACA,gBAAA;ADSR","file":"AdviceCard.css"}
