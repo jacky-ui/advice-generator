@@ -72,5 +72,10 @@
         @include mobile {
             top: 92%;
         }
+
+        &:hover {
+            box-shadow: 0px 0px 40px 20px $green-color;
+            cursor: pointer;
+        }
     }
 }
