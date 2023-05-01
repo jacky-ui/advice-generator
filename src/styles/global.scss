@@ -1,5 +1,8 @@
+@use './partials/variables' as *;
+
 body {
     margin:0;
+    background-color: $body-bg;
 }
 
 *, *:after, *:before {
