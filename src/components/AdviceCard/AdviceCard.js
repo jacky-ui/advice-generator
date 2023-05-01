@@ -6,10 +6,11 @@ function AdviceCard() {
     return(
         <section className='card'>
             <h2 className='card__header'>Advice #117</h2>
-            <p className='card__text'>some text here with qoutes</p>
+            <p className='card__text'>some text here with qoutes gfgsfdgdfg gfdsgsdfgdsfg gfdgsdfgsdfg gfdgsdfg</p>
             <img 
                 src={desktopDivider}
                 alt=''
+                className='card__image--desktop'
             />
         </section>
     )

@@ -29,4 +29,22 @@
   font-family: "Toboggan";
   font-weight: 300;
   font-size: 1rem;
+  margin: 0%;
+}
+.card__text {
+  color: #9BACB4;
+  font-family: "Tobaggan";
+  font-style: italic;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin: 0%;
+  text-align: center;
+}
+.card__image--desktop {
+  width: 25rem;
+}
+@media screen and (max-width: 760px) {
+  .card__image--desktop {
+    display: none;
+  }
 }/*# sourceMappingURL=AdviceCard.css.map */
