@@ -12,6 +12,9 @@ function AdviceCard() {
                 alt=''
                 className='card__image--desktop'
             />
+            <div
+                className='card__image--dice'
+            />
         </section>
     )
 };

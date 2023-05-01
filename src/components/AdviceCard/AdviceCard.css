@@ -48,4 +48,15 @@
   .card__image--desktop {
     display: none;
   }
+}
+.card__image--dice {
+  background-image: url(../../assets/images/icon-dice.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #52FEAC;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 5rem;
+  position: absolute;
+  top: 89%;
 }/*# sourceMappingURL=AdviceCard.css.map */
