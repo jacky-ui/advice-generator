@@ -6,7 +6,7 @@ function AdviceCard() {
     return(
         <section className='card'>
             <h2 className='card__header'>Advice #117</h2>
-            <p className='card__text'></p>
+            <p className='card__text'>some text here with qoutes</p>
             <img 
                 src={desktopDivider}
                 alt=''
