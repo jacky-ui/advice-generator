@@ -2,7 +2,8 @@ import './AdviceCard.scss';
 import desktopDivider from '../../assets/images/pattern-divider-desktop.svg';
 import mobileDivider from '../../assets/images/pattern-divider-mobile.svg';
 
-function AdviceCard() {
+function AdviceCard(props) {
+    const { id, advice } = props.adviceApi
     return(
         <section className='card'>
             <h2 className='card__header'>Advice #117</h2>
