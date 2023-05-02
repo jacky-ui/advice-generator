@@ -3,7 +3,7 @@ import desktopDivider from '../../assets/images/pattern-divider-desktop.svg';
 import mobileDivider from '../../assets/images/pattern-divider-mobile.svg';
 
 function AdviceCard(props) {
-    console.log(props.adviceObject)
+    console.log(props)
     const { id, advice } = props.adviceObject
     return(
         <section className='card'>
@@ -21,6 +21,7 @@ function AdviceCard(props) {
             />
             <div
                 className='card__image--dice'
+                onClick={props.onClick}
             />
         </section>
     )
