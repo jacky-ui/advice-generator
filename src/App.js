@@ -21,7 +21,11 @@ function App() {
       .then((response) => setAdvice(response.data.slip))
       .catch((error) => console.log(error));
   }
-
+  if(!adviceApi) {
+    return(
+      <div>LOADING...</div>
+    )
+  } else
   return (
     <>
       <AdviceCard 
