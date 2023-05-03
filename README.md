@@ -2,21 +2,9 @@
 
 This project was part of a challenge from Front-End Mentor: https://www.frontendmentor.io/.
 
-Have you been feeling down? Feeling lost? Look no further with this advice generator!
+![image](https://user-images.githubusercontent.com/64509710/235811320-b2786619-9c0f-49a3-8437-e9995e6351d7.png)
 
-## Available Scripts
+##Description:
+Have you been feeling down? Feeling lost? Look no further with this advice generator! Every page refresh or by clicking the die will generate a new advice for you.
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+https://api.adviceslip.com/
