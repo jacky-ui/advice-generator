@@ -1,6 +1,6 @@
 # Advice Generator
 
-This project was part of a challenge from [Front-End Mentor: https://www.frontendmentor.io/)].
+This project was part of a challenge from Front-End Mentor: https://www.frontendmentor.io/.
 
 ## Available Scripts
 
