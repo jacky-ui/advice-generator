@@ -20,3 +20,6 @@ Have you been feeling down? Feeling lost? Look no further with this advice gener
     <img src="https://skillicons.dev/icons?i=html,css,sass,js,react"/>
   </a>
 </p>
+
+## Next Steps
+Since this project was pure Front-End, I'm planning on creating my own advice API and have my Front-End make a call from there instead
