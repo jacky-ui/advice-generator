@@ -14,3 +14,9 @@ Have you been feeling down? Feeling lost? Look no further with this advice gener
   <li>Libraries: Axios</li>
   <li>API: Advice Slip API</li>
 </ul>
+
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=html,css,sass,js,react"/>
+  </a>
+</p>
