@@ -22,4 +22,18 @@ Have you been feeling down? Feeling lost? Look no further with this advice gener
 </p>
 
 ## Next Steps
-Since this project was pure Front-End, I'm planning on creating my own advice API and have my Front-End make a call from there instead
+Since this project was pure Front-End, I'm planning on creating my own advice API and have my Front-End make a call to there instead.
+
+### `Run and Install Locally`
+
+Clone the project in desired folder from the terminal
+
+    git clone https://github.com/jacky-ui/advice-generator.git
+
+Once cloned, you will need to install all the dependencies. This can be done by running the below commands in your terminal. Make sure you are in the project folder/directory
+
+    npm i
+    
+Finally, to run Advice Generator you would have to open your IDE, open the project folder if it isn't already open, then:
+
+    npm start
