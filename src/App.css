@@ -13,8 +13,8 @@
 
 .lds-grid div {
   position: absolute;
-  width: 16px;
-  height: 16px;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
   background: #52FEAC;
   animation: lds-grid 1.2s linear infinite;
