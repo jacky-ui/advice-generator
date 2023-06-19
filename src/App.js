@@ -10,7 +10,7 @@ function App() {
   const [loader, setLoaader] = useState(false);
 
   setTimeout(() => {
-    setLoaader(false);
+    setLoaader(true);
   }, 5000)
   
   useEffect(() => {
