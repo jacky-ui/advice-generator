@@ -7,6 +7,16 @@ import axios from 'axios';
 function App() {
 
   const [adviceApi, setAdvice] = useState(null);
+
+  const timeLoading = setTimeout(sayHello, 5000);
+
+  function sayHello() {
+    console.log('hello world')
+  };
+
+  function myStopFunction() {
+    clearTimeout(timeLoading);
+  }
   
   useEffect(() => {
     axios
