@@ -10,7 +10,7 @@ function App() {
   const [loader, setLoaader] = useState(false);
 
   setTimeout(() => {
-    setLoaader(true);
+    setLoaader(false);
   }, 5000)
   
   useEffect(() => {
@@ -28,7 +28,19 @@ function App() {
   }
   if(!loader) {
     return(
-      <div>LOADING...</div>
+      <div className='loading'>
+        <div class="lds-grid">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
     )
   } else
   return (
