@@ -28,6 +28,7 @@ function App() {
   }
   if(!loader) {
     return(
+      /*Credits to loading.io for loader animation*/
       <div className='loading'>
         <div class="lds-grid">
           <div></div>
