@@ -7,6 +7,11 @@ import axios from 'axios';
 function App() {
 
   const [adviceApi, setAdvice] = useState(null);
+  const [loader, setLoaader] = useState(false);
+
+  setTimeout(() => {
+    setLoaader(true);
+  }, 5000)
   
   useEffect(() => {
     axios
@@ -21,9 +26,22 @@ function App() {
       .then((response) => setAdvice(response.data.slip))
       .catch((error) => console.log(error));
   }
-  if(!adviceApi) {
+  if(!loader) {
     return(
-      <div>LOADING...</div>
+      /*Credits to loading.io for loader animation*/
+      <div className='loading'>
+        <div class="lds-grid">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
     )
   } else
   return (
